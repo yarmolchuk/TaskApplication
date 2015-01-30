@@ -14,6 +14,7 @@
 		32186E2C1A7986ED00566C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32186E2B1A7986ED00566C3D /* Images.xcassets */; };
 		32186E2F1A7986ED00566C3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32186E2D1A7986ED00566C3D /* LaunchScreen.xib */; };
 		32186E3B1A7986ED00566C3D /* TaskApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32186E3A1A7986ED00566C3D /* TaskApplicationTests.swift */; };
+		32186E451A79871300566C3D /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32186E441A79871300566C3D /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		32186E341A7986ED00566C3D /* TaskApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32186E391A7986ED00566C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32186E3A1A7986ED00566C3D /* TaskApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskApplicationTests.swift; sourceTree = "<group>"; };
+		32186E441A79871300566C3D /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				32186E221A7986ED00566C3D /* AppDelegate.swift */,
+				32186E441A79871300566C3D /* TaskManager.swift */,
 				32186E241A7986ED00566C3D /* FirstViewController.swift */,
 				32186E261A7986ED00566C3D /* SecondViewController.swift */,
 				32186E281A7986ED00566C3D /* Main.storyboard */,
@@ -217,6 +220,7 @@
 			files = (
 				32186E271A7986ED00566C3D /* SecondViewController.swift in Sources */,
 				32186E231A7986ED00566C3D /* AppDelegate.swift in Sources */,
+				32186E451A79871300566C3D /* TaskManager.swift in Sources */,
 				32186E251A7986ED00566C3D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
